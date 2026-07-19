@@ -28,6 +28,7 @@ jobs:
       env:
         OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
 
     - name: Upload APK Artifact
       uses: actions/upload-artifact@v4
