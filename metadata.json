@@ -1,0 +1,6 @@
+{
+  "name": "Windows Launcher & AI Keyboard",
+  "description": "A Windows-inspired launcher with an AI-powered keyboard assistant that uses the camera to provide real-time predictive text suggestions from a cardboard keyboard proxy.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
